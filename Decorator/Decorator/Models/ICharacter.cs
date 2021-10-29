@@ -11,5 +11,7 @@ namespace Decorator.Models
         public int GetDexterity();
         public int GetIntelligence();
 
+        public int GetLevel();
+
     }
 }

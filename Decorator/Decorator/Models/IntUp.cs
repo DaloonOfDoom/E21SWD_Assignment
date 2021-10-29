@@ -19,5 +19,7 @@ namespace Decorator.Models
         {
             return base.GetIntelligence() + 1;
         }
+
+       
     }
 }

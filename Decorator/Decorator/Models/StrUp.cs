@@ -20,5 +20,6 @@ namespace Decorator.Models
             return base.GetStrength() + 1;
         }
 
+       
     }
 }

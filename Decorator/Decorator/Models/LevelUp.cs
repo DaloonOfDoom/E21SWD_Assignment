@@ -34,5 +34,9 @@ namespace Decorator.Models
             return base_.GetIntelligence();
         }
 
+        public virtual int GetLevel()
+        {
+            return base_.GetLevel() +1;
+        }
     }
 }

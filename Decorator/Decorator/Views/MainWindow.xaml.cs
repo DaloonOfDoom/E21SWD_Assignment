@@ -11,5 +11,7 @@ namespace Decorator.Views
         {
             InitializeComponent();
         }
+
+       
     }
 }
