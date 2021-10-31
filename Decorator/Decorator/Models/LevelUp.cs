@@ -6,37 +6,37 @@ namespace Decorator.Models
 {
     public abstract class LevelUp : ICharacter
     {
-        private ICharacter base_;
+        private readonly ICharacter _base;
 
         protected LevelUp(ICharacter @char)
         {
-            base_ = @char;
+            _base = @char;
         }
 
         public virtual string GetPath()
         {
-            return base_.GetPath();
+            return _base.GetPath();
         }
 
         public virtual int GetStrength()
         {
-            return base_.GetStrength();
+            return _base.GetStrength();
         }
 
         public virtual int GetDexterity()
         {
-            return base_.GetDexterity();
+            return _base.GetDexterity();
         }
 
 
         public virtual int GetIntelligence()
         {
-            return base_.GetIntelligence();
+            return _base.GetIntelligence();
         }
 
         public virtual int GetLevel()
         {
-            return base_.GetLevel() +1;
+            return _base.GetLevel() +1;
         }
     }
 }
