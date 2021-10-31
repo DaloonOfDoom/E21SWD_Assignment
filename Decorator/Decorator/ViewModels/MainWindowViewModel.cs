@@ -137,7 +137,7 @@ namespace Decorator.ViewModels
 
         void ExecutePath()
         {
-            MessageBox.Show(guy.GetPath());
+            MessageBox.Show( $"This Level {guy.GetLevel()} {guy.GetPath()}");
         }
 
         #endregion
