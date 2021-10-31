@@ -17,7 +17,7 @@ namespace Decorator.Models
 
         public override int GetIntelligence()
         {
-            return base.GetIntelligence() + 1;
+            return base.GetIntelligence() + 2;
         }
 
        

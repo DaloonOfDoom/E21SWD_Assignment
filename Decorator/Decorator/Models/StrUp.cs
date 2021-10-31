@@ -12,12 +12,12 @@ namespace Decorator.Models
 
         public override string GetPath()
         {
-            return base.GetPath() + " got big,";
+            return base.GetPath() + " took steroids,";
         }
 
         public override int GetStrength()
         {
-            return base.GetStrength() + 1;
+            return base.GetStrength() + 2;
         }
 
        

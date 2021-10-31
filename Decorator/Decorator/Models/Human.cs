@@ -8,7 +8,7 @@ namespace Decorator.Models
     {
         public string GetPath()
         {
-            return $"Human";
+            return "Human";
         }
 
         public int GetStrength()

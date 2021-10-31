@@ -12,12 +12,12 @@ namespace Decorator.Models
 
         public override string GetPath()
         {
-            return base.GetPath() + " got fast,";
+            return base.GetPath() + " went for a run,";
         }
 
         public override int GetDexterity()
         {
-            return base.GetDexterity() + 1;
+            return base.GetDexterity() + 2;
         }
     }
 
